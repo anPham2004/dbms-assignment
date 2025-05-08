@@ -12,4 +12,4 @@ if doc and "image" in doc:
         out_file.write(doc["image"])
         print("Image retrieved and saved.")
 else:
-    print("Image not found in the database.")
+    print("Image not found in the database")

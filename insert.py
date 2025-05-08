@@ -114,4 +114,4 @@ for filename in valid_files:
     }
 
     collection.insert_one(document)
-    print(f"Inserted: {filename} with patient_id: {patient_id} and scan_date: {scan_date}")
+    print(f"Inserted: {filename} with Patient_id: {patient_id} and Scan_date: {scan_date}")
